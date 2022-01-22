@@ -1,5 +1,5 @@
-This is the code to check your best in Flywire solution for Wordle quiz:
-If you want to participate what you need to do is build a ruby file that with this method:
+Welcome the code that will test your best in Flywire solution for Wordle quiz:
+If you want to participate, what you need to do is to build a ruby file that implements this method:
 def solve_the_wordle(status_array: status_array)
 
 The wordle checker will call this method until 6 times or until you will guess the right word.
@@ -25,5 +25,8 @@ for example: status_array = [[["f", "G"], ["r", "R"], ["a", "R"], ["m", "R"], ["
 This is a contest for fun so lets try to think and build the solution on our own and not use ready solutions from the internet.
 You can team up into smaller group and work on it together :-)
 You are welcome to use the wordle_checker.rb and the constants.rb to test your code, this is the method that will be used to run the final competition.
+
+In the final run, your code will be tested on 100 random words and your grade will be the average grade of all 100 attempts.
+The grade for each run will be the number of the guesses needed or 10 if failed to guess in 6 attempts.
 
 When you finish send me a slack or email with your #{name}.rb file.
