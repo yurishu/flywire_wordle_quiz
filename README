@@ -7,7 +7,7 @@ The wordle checker will call this method until 6 times or until you will guess t
 Your method will get "status_array" param which will have all the previous guesses and their info.
 "G" - means green and says that the letter guessed is in the right place.
 "Y" - means yellow and says that the letter is in the wrong place but part of the word we want to guess.
-"R" - meand red and says that the letter is not part of the word we want to guess.
+"R" - means red and says that the letter is not part of the word we want to guess.
 For example -
 the first call will have: status_array = []
 the second call example will look like: status_array = [[["f", "G"], ["r", "R"], ["a", "R"], ["m", "R"], ["e", "R"]]]
@@ -21,6 +21,9 @@ Your method should return a string of 5 letters.
 In case the return value will not be a 5 letter string or will not be in the WORDS_DICT array, the attempt will we wasted and the next call will send an empty array:
 for example: status_array = [[["f", "G"], ["r", "R"], ["a", "R"], ["m", "R"], ["e", "R"]],
                              []]
+
+The WORDS_DICT is the list you should use as the acceptable words you can use.
+It will be updated and more words will be added there so do not rely on specific words in it today.
 
 This is a contest for fun so lets try to think and build the solution on our own and not use ready solutions from the internet.
 You can team up into smaller group and work on it together :-)
