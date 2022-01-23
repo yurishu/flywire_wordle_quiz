@@ -1,6 +1,6 @@
 Welcome the code that will test your best in Flywire solution for Wordle quiz:
 If you want to participate, what you need to do is to build a ruby file that implements this method:
-def solve_the_wordle(status_array: status_array)
+def solve_the_wordle(status_array: [])
 
 The wordle checker will call this method until 6 times or until you will guess the right word.
 
