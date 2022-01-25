@@ -26,6 +26,7 @@ The WORDS_DICT is the list you should use as the acceptable words you can use.
 It will be updated and more words will be added there so do not rely on specific words in it today.
 
 This is a contest for fun so lets try to think and build the solution on our own and not use ready solutions from the internet.
+In addition, please dont use APIs from the internet that helps, build things on your own.
 You can team up into smaller group and work on it together :-)
 You are welcome to use the wordle_checker.rb and the constants.rb to test your code, this is the method that will be used to run the final competition.
 
