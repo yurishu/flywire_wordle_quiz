@@ -58,7 +58,7 @@ random_words = (1..1000).map{|x| WORDS_DICT.sample }.uniq
 random_dictionary = (0...2000).map{ (0...5).map { (97 + rand(26)).chr }.join }.uniq
 random_words2 = (1..1000).map{|x| random_dictionary.sample }.uniq
 
-["yuri", "hanan", "miguel_garcia", "sofi", "sacha", "andoni_alonso"].each do |filename|
+["gai"].each do |filename|
   WORDS_DICT = const_dictionary.dup
   total_score = 0
   total_time = 0
